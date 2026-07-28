@@ -44,4 +44,4 @@ Options
 
 #### Author
 
-[Bryan Elliott](https://github.com/elliottprogrammer)
+[Shujah Ur Rehman](https://github.com/shujahhhub)
