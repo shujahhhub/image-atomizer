@@ -1,20 +1,25 @@
-ImageAtomizer.js
+# ImageAtomizer.js
+
 This is a small JavaScript library that that takes any image and explodes it into thousands of animated particles that gracefully come together to form the image again. The particles repel from the mouse pointer creating an interactive particle animation effect.
 
+## How to use it
 
-You can also see this in action on my developer portfolio
-
-How to use it
 Just add some HTML like this:
 
+```html
 <div id="image-atomizer">
   <canvas class="atomizer"></canvas>
 </div>
-Include the imageAtomizer.js file before the ending </body> tag in your HTML:
+```
 
+Include the `imageAtomizer.js` file before the ending `</body>` tag in your HTML:
+```html
 <script src="imageAtomizer.js"></script>
+```
+
 Then instanciate the ImageAtomizer class:
 
+```html
 <script type="text/javascript">
     const myImage = './image-filename.png';
     new ImageAtomizer(myImage, {
@@ -23,7 +28,10 @@ Then instanciate the ImageAtomizer class:
         restless: false,
     });
 </script>
-Options
+```
+## Options
+
+```js
         new ImageAtomizer(myImage, {
             elementId: "image-atomizer", // The ID of your container div.
             width: 0,                   // Canvas width (auto-sizes if 0).
@@ -45,3 +53,4 @@ Options
 #### Author
 
 [Shujah Ur Rehman](https://github.com/shujahhhub)
+
